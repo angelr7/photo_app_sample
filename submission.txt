@@ -1,0 +1,34 @@
+Project #8 - Submission form
+
+Story number and name: 1 - Extend user profile detail with usage
+Story points - 3
+Brief description to see the story in action: 
+When you click on a user's account, you can see their most viewed image, along with the most commented image. 
+There is also a preview of their images, which was preserved from previous projects. If you make comments on image, or if
+a user uploads a new image, the userDetail view will update accordingly to reflect those changes.
+
+Story number and name: 4 - Activity Feed
+Story points - 4
+Brief description to see the story in action:
+When logging in or creating an account, you are instantly brought to the activity feed, which is like a homepage of sorts.
+Additionally, there is a button in the TopBar that can take you to the activity feed by clicking on it. When you are in the activity
+feed, you can hit the "Refresh" button at any time to pull in any new changes from the database and update the view accordingly.
+As expected, the activity feed updates when someone logs in, logs out, creates an account, uploads a photo, or makes a comment.
+
+Story number and name: 6 - Favorite lists of photos for users
+Story points - 6
+Brief description to see the story in action:
+As soon as your session is valid and registered, the TopBar updates to have a "View Favorites" button. 
+This redirects the user to the "/favorites" page, where the logged-in user can see any photos that they have favorited.
+A user can favorite a photo by going to a user's photo page. When they hover their mouse over a photo, there is a timestamp and a button 
+that says "FAVORITE". If the user clicks on the overlay, a comment prompt is displayed. If a user clicks "FAVORITE", this change
+is reflected in the database accordingly. Additionally, when the user is viewing their favorites on the favorites page, they can choose to remove it by hitting
+the "UN-FAVORITE" button. If a user hovers over a photo they've already favorited on someone's photo page, a "UN-FAVORITE" button will be displayed instead.
+
+Total Story Points: 13
+
+Marketing Video URL : https://youtu.be/SdS08vb2NA8
+
+Is it OK with you if we post your Marketing Video URL on the class discussion forum? Yes
+
+Instructions for Grading (should be easy to run app from new machine): None (Standard npm install, loadServer, and npm run build)
